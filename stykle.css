@@ -527,25 +527,26 @@ footer .logo{
         width: 13rem;
         font-size: 1.5rem;
     }
-    
+    .news{
+        margin-top: 15px;
+    }
     #news .news .col{
         display: inline;
         justify-content: space-around;
         margin-bottom: 30px;
         margin-top: 10px;
-        
-        
     }
     #contact{
         display: inline;
         justify-content: flex-start;
-        background: linear-gradient(#87cefa, #78c8e6);
+        margin-top: 25px;
         
     }
     #contact .contact h1{
         border-bottom: 2px solid red;
         width: 50%;
         text-transform: capitalize;
+        background: linear-gradient(#87cefa, #78c8e6);
         
     }
 
@@ -576,36 +577,6 @@ footer .logo{
         justify-content:space-evenly;
     }
 
-
-    /* .icon-bar{
-        position: fixed;
-        transform: translateY(-50%);
-        z-index: 10;
-    }
-    .icon-bar a{
-        width: 16rem;
-        background: linear-gradient(blue, #4e6f83);
-        color: #fff;
-        /* display: flex;
-        justify-content: flex-end;
-        align-items: center;  */
-        /* font-size: 1.7rem;
-        padding: 0.5rem; */
-        /* transition: all 0.5s linear;
-        transform: translateX(-14rem); */
-    /* }
-    
-    .icon-bar a:hover{
-        transform: translateX(0);
-    }
-    .icon-bar a .fab{
-        padding-left: 0.8rem;
-        font-size: 2.5rem; 
-        animation: letszoom 3s linear alternate-reverse infinite;
-    }
-    @keyframes letszoom{
-        from{ */ */
-}
 @media(max-width:800px){
 
 
