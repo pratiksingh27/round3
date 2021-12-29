@@ -375,16 +375,18 @@ footer{
     justify-content: center;
 }
 footer .logo{
-    margin-top: 6px;
+    margin-top: 5px;
 }
 #footer{
     font-size: 20px;
     display: flex;
     justify-content:space-evenly;
+    padding-top: 15px;
 }
 #footer .navfooter a li{
     color: black;
     text-transform: capitalize;
+    line-height: 30px;
 }
 /* social media section */
 .icon-bar{
@@ -635,6 +637,22 @@ footer .logo{
         display: inline;
         line-height: 25px;
         width: auto;
+    }
+    #m1{
+        display: inline;
+        margin-top: 20px;
+        margin-right: 10px;
+        width: auto;
+    }
+    #m2{
+        display: inline;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    #m3{
+        display: inline;
+        margin-top: 20px;
+        margin-right: 10px;
     }
     
 }
