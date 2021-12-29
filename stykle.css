@@ -227,11 +227,13 @@ header main section:hover{
     font-size: 19px;
     color: black;
     padding-left: 25px;
+    margin-bottom: 25px;
 }
 .about .about1 ol li{
     font-size: 25px;
     padding-left: 20px;
     margin-left: 20px;
+    margin-top: 20px;
     list-style-type: none;
 }
 .about .about2{
@@ -251,6 +253,7 @@ header main section:hover{
     column-gap: 50px;
     margin-bottom: 50px;
     margin-top: 50px;
+    
 }
 #flex li img:hover{
     box-shadow: 1px 1px 1px 1px;
@@ -572,6 +575,36 @@ footer .logo{
         display: inline;
         justify-content:space-evenly;
     }
+
+
+    /* .icon-bar{
+        position: fixed;
+        transform: translateY(-50%);
+        z-index: 10;
+    }
+    .icon-bar a{
+        width: 16rem;
+        background: linear-gradient(blue, #4e6f83);
+        color: #fff;
+        /* display: flex;
+        justify-content: flex-end;
+        align-items: center;  */
+        /* font-size: 1.7rem;
+        padding: 0.5rem; */
+        /* transition: all 0.5s linear;
+        transform: translateX(-14rem); */
+    /* }
+    
+    .icon-bar a:hover{
+        transform: translateX(0);
+    }
+    .icon-bar a .fab{
+        padding-left: 0.8rem;
+        font-size: 2.5rem; 
+        animation: letszoom 3s linear alternate-reverse infinite;
+    }
+    @keyframes letszoom{
+        from{ */ */
 }
 @media(max-width:800px){
 
