@@ -221,6 +221,7 @@ header main section:hover{
     font-size: 33px;
     border-bottom: 1px solid black;
     padding-left: 10px;
+    text-align: center;
 }
 .about .about1 p{
     font-size: 19px;
@@ -230,7 +231,8 @@ header main section:hover{
 .about .about1 ol li{
     font-size: 25px;
     padding-left: 20px;
-    list-style-type: decimal-leading-zero;
+    margin-left: 20px;
+    list-style-type: none;
 }
 .about .about2{
     width: 60%;
@@ -271,6 +273,9 @@ header main section:hover{
     column-gap: 20px;
     margin-top: 50px;
 }
+.flex2 li .fa-star{
+    font-family: 'Source Code Pro', monospace;
+}
 #flex2 h4{
     margin-bottom: 25px;
 }
@@ -293,7 +298,7 @@ header main section:hover{
 
 .marquee{
     display: flex;
-    width: 90%;
+    width: 50%;
     height: 45px;
     background: white;
     align-items: center;
@@ -303,20 +308,49 @@ header main section:hover{
 } 
 .text{
     font-size: 20px;
-    width: 200px;
+    width: 100px;
     color: black;
     background: var(--primary-button-background);
 }
 .marquee .box{
     background: var(--background-color);
-    border-radius: 20px;
+    border-radius: 10px;
     
 }
+#m1{
+    display: flex;
+    margin-top: 20px;
+    flex: 1 1;
+    margin-right: 10px;
+}
+#m1 p{
+    width: 50%;
+} 
+
+#m2{
+    display: flex;
+    margin-top: 20px;
+    column-count: 2;
+    margin-right: 10px;
+}
+#m2 p{
+    width: 50%;
+} 
+#m3{
+    display: flex;
+    margin-top: 20px;
+    column-count: 2;
+    margin-right: 10px;
+}
+#m3 p{
+    width: 50%;
+} 
 #team h1{
     font-size: 30px;
     border-bottom: 2px solid blue;
     width: 30%;
     margin-bottom: 20px;
+    text-align: center;
      /* background: linear-gradient(30deg , #87cefa 20%,white 20% 80% ,#87cefa 80%);  */
 }
 #team h5{
@@ -328,6 +362,7 @@ header main section:hover{
 #team p{
     font-size: 18px;
     margin-left: 15px;
+    display: flex;
 }
 
 /* footer section */
@@ -513,6 +548,21 @@ footer .logo{
         
         font-size: 50px;
         box-shadow: 1px 1px 2px 2px;
+    }
+    #m1{
+        display: inline;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    #m2{
+        display: inline;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    #m3{
+        display: inline;
+        margin-top: 20px;
+        margin-right: 10px;
     }
 
     #footer{
