@@ -313,7 +313,7 @@ header main section:hover{
     background: var(--primary-button-background);
 }
 .marquee .box{
-    background: var(--background-color);
+    /* background: var(--background-color); */
     border-radius: 10px;
     
 }
