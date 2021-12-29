@@ -121,18 +121,7 @@ header nav .left-side .sub-menu a li:hover{
     color: var(--button-background);
 }
 
-.checkbtn{
-    font-size: 25px;
-    color: white;
-    float: right;
-    margin-right: 40px;
-    line-height: 10px;
-    display: none;
-    cursor: pointer;
-}   
-#check{
-    display: none;
-}
+
 
 
 header .right-side{
@@ -221,6 +210,7 @@ header main section:hover{
     font-size: 33px;
     border-bottom: 1px solid black;
     padding-left: 10px;
+    margin-top: 20px;
     text-align: center;
 }
 .about .about1 p{
@@ -320,15 +310,24 @@ header main section:hover{
     border-radius: 10px;
     
 }
+#men{
+    display: flex;
+    column-gap: 15px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
 #m1{
     display: flex;
     margin-top: 20px;
     flex: 1 1;
     margin-right: 10px;
 }
-#m1 p{
+#m1 h5{
+    margin-right: 10px;
+}
+/* #m1 p{
     width: 50%;
-} 
+}  */
 
 #m2{
     display: flex;
@@ -336,18 +335,25 @@ header main section:hover{
     column-count: 2;
     margin-right: 10px;
 }
-#m2 p{
+#m2 h5{
+    margin-right: 10px;
+}
+/* #m2 p{
     width: 50%;
-} 
+}  */
 #m3{
     display: flex;
     margin-top: 20px;
     column-count: 2;
+    column-gap: 15px;
     margin-right: 10px;
 }
-#m3 p{
+#m3 h5{
+    margin-right: 10px;
+}
+/* #m3 p{
     width: 50%;
-} 
+}  */
 #team h1{
     font-size: 30px;
     border-bottom: 2px solid blue;
@@ -370,7 +376,7 @@ header main section:hover{
 
 /* footer section */
 footer{
-    background: linear-gradient(to right ,rgb(54, 151, 180), #4e6f83);
+    background: linear-gradient(to right ,rgb(178, 223, 236), #e0e6eb);
     
 }
 .foot{
@@ -555,6 +561,12 @@ footer .logo{
         font-size: 50px;
         box-shadow: 1px 1px 2px 2px;
     }
+    #men{
+        display: inline;
+        column-gap: 15px;
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
     #m1{
         display: inline;
         margin-top: 20px;
@@ -575,6 +587,7 @@ footer .logo{
         font-size: 20px;
         display: inline;
         justify-content:space-evenly;
+        background: var(--primry-color);
     }
 
 @media(max-width:800px){
