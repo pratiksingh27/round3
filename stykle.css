@@ -434,7 +434,7 @@ footer .logo{
 
 @media(max-width:500px){
     header, .main-hero-section, .common-section {
-        padding: 0 5rem; 
+        padding: 0 0; 
     }
     header nav{
         padding-top: 0rem;
