@@ -192,9 +192,9 @@ header main section:hover{
     box-shadow: 1px 1px 2px 2px;
 }
 
-#header2 .about{
+/* #header2 .about{
      /* background: linear-gradient(30deg , #87cefa 20%,white 20% 80% ,#87cefa 80%); */
-}
+ 
 /* our about section */
 
 .about{
@@ -589,6 +589,7 @@ footer .logo{
         justify-content:space-evenly;
         background: var(--primry-color);
     }
+}
 
 @media(max-width:800px){
 
