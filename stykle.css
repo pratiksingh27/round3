@@ -311,16 +311,51 @@ header main section:hover{
     
 }
 #men{
+    display: inline;
+    column-gap: 20px;
+    margin-left: 20px;
+}
+#men .men1{
+    width: 50%;
+    margin-left: 30px;
+    box-shadow: 2px 2px 2px 2px;
+    transition: 0.3s;
+}
+#men .men1:hover{
+    width: 50%;
+    margin-left: 30px;
+    box-shadow: 6px 6px 6px 6px;
+    text-align: center;
+}
+#men2{
     display: flex;
+    column-gap: 20px;
+}
+.men{
+    display: inline;
+    
     column-gap: 15px;
     margin-top: 25px;
     margin-bottom: 30px;
 }
+#men #men2 .men{
+    box-shadow: 2px 2px 2px 2px;
+    transition: 0.3s;
+    
+}
+#men #men2 .men:hover{
+    box-shadow: 4px 4px 4px 4px ;
+    /* background: #00aced;
+    color: white; */
+    text-align: center;
+}
+
 #m1{
     display: flex;
     margin-top: 20px;
     flex: 1 1;
     margin-right: 10px;
+    
 }
 #m1 h5{
     margin-right: 10px;
@@ -331,7 +366,7 @@ header main section:hover{
 
 #m2{
     display: flex;
-    margin-top: 20px;
+    margin-top: 30px;
     column-count: 2;
     margin-right: 10px;
 }
@@ -343,13 +378,22 @@ header main section:hover{
 }  */
 #m3{
     display: flex;
-    margin-top: 20px;
+    margin-top: 30px;
     column-count: 2;
     column-gap: 15px;
     margin-right: 10px;
 }
 #m3 h5{
     margin-right: 10px;
+}
+#m1:hover{
+    box-shadow: 4px 4px 4px 4px;
+}
+#m2:hover{
+    box-shadow: 4px 4px 4px 4px;
+}
+#m3:hover{
+    box-shadow: 4px 4px 4px 4px;
 }
 /* #m3 p{
     width: 50%;
@@ -364,15 +408,16 @@ header main section:hover{
 }
 #team h5{
     font-size: 22px;
-    width: 15%;
+    width: 35%;
     border-bottom: 2px solid #00aced;
     margin-left: 30px;
 }
 #team p{
     font-size: 18px;
     margin-left: 15px;
-    display: flex;
+    display: inline;
 }
+
 
 /* footer section */
 footer{
@@ -447,13 +492,17 @@ footer .logo{
 }
 /* news section */
 #news .news .col{
-    display: flex;
+    display: inline;
     /* justify-content: space-between;  */
     margin-bottom: 30px;
     column-gap: 15px;
     margin-top: 20px;
    line-height: 15px;
     
+}
+#news .news .col p:hover{
+    box-shadow: 2px 2px 2px 2px;
+    margin-top: 20px;
 }
 #news .news h2{
     font-size: 25px;
@@ -582,6 +631,15 @@ footer .logo{
         display: inline;
         margin-top: 20px;
         margin-right: 10px;
+    }
+    #m1:hover{
+        box-shadow: 4px 4px 4px 4px;
+    }
+    #m2:hover{
+        box-shadow: 4px 4px 4px 4px;
+    }
+    #m3:hover{
+        box-shadow: 4px 4px 4px 4px;
     }
 
     #footer{
