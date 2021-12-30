@@ -321,6 +321,12 @@ header main section:hover{
     box-shadow: 2px 2px 2px 2px;
     transition: 0.3s;
 }
+#men .men1 img{
+    border-radius: 80px;
+}
+#men2 .men img{
+    border-radius: 80px;
+}
 #men .men1:hover{
     width: 50%;
     margin-left: 30px;
@@ -620,6 +626,10 @@ footer .logo{
         column-gap: 15px;
         margin-top: 25px;
         margin-bottom: 30px;
+    }
+    #men2{
+        display: inline;
+        row-gap: 20px;
     }
     #m1{
         display: inline;
