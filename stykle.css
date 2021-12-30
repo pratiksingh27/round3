@@ -128,6 +128,7 @@ header .right-side{
     width: 50%;
     display: flex;
     justify-content: end;
+    padding-right: 20px;
 
 }
 
@@ -187,10 +188,10 @@ header main p{
     color: black;
     text-align: end;
 }
-header main section:hover{
+/* header main section:hover{
     width: 700px;
-    box-shadow: 1px 1px 2px 2px;
-}
+    
+} */
 
 /* #header2 .about{
      /* background: linear-gradient(30deg , #87cefa 20%,white 20% 80% ,#87cefa 80%); */
@@ -216,7 +217,7 @@ header main section:hover{
 .about .about1 p{
     font-size: 19px;
     color: black;
-    padding-left: 25px;
+    padding-left: 37px;
     margin-bottom: 25px;
 }
 .about .about1 ol li{
@@ -301,6 +302,7 @@ header main section:hover{
 } 
 .text{
     font-size: 20px;
+    padding-left: 20px;
     width: 100px;
     color: black;
     background: var(--primary-button-background);
@@ -318,7 +320,7 @@ header main section:hover{
 #men .men1{
     width: 50%;
     margin-left: 30px;
-    box-shadow: 2px 2px 2px 2px;
+    box-shadow: 1px 1px 1px 1px;
     transition: 0.3s;
 }
 #men .men1 img{
@@ -326,11 +328,12 @@ header main section:hover{
 }
 #men2 .men img{
     border-radius: 80px;
+    padding-top: 10px;
 }
 #men .men1:hover{
     width: 50%;
     margin-left: 30px;
-    box-shadow: 6px 6px 6px 6px;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px;
     text-align: center;
 }
 #men2{
@@ -351,7 +354,7 @@ header main section:hover{
     
 }
 #men #men2 .men:hover{
-    box-shadow: 4px 4px 4px 4px ;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px ;
     /* background: #00aced;
     color: white; */
     text-align: center;
@@ -363,6 +366,7 @@ header main section:hover{
     flex: 1 1;
     margin-right: 10px;
     align-items: center;
+    padding-left: 20px;
     
 }
 #m1 h5{
@@ -378,6 +382,7 @@ header main section:hover{
     column-count: 2;
     margin-right: 10px;
     align-items: center;
+    padding-left: 20px;
 }
 #m2 h5{
     margin-right: 10px;
@@ -392,18 +397,19 @@ header main section:hover{
     column-gap: 15px;
     margin-right: 10px;
     align-items: center;
+    padding-left: 20px;
 }
 #m3 h5{
     margin-right: 10px;
 }
 #m1:hover{
-    box-shadow: 4px 4px 4px 4px;
+    box-shadow: 1px 1px 1px 1px;
 }
 #m2:hover{
-    box-shadow: 4px 4px 4px 4px;
+    box-shadow: 1px 1px 1px 1px;
 }
 #m3:hover{
-    box-shadow: 4px 4px 4px 4px;
+    box-shadow: 1px 1px 1px 1px;
 }
 /* #m3 p{
     width: 50%;
@@ -437,6 +443,9 @@ footer{
 .foot{
     display: flex;
     justify-content: center;
+    font-size: 18px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 footer .logo{
     margin-top: 5px;
@@ -469,7 +478,7 @@ footer .logo{
     font-size: 1.7rem;
     padding: 0.5rem;
     transition: all 0.5s linear;
-    transform: translateX(-14rem);
+    transform: translateX(-12.5rem);
 }
 
 .icon-bar a:hover{
@@ -501,6 +510,9 @@ footer .logo{
     background:#08516b;
 }
 /* news section */
+#news{
+    padding-left: 35px;
+}
 #news .news .col{
     display: flex;
     /* justify-content: space-between;  */
@@ -534,6 +546,8 @@ footer .logo{
     border-bottom: 2px solid red;
     width: 100%;
     text-transform: capitalize;
+    padding-top: 15px;
+    padding-bottom: 15px;
     
 }
 
