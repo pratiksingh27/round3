@@ -502,10 +502,10 @@ footer .logo{
 }
 /* news section */
 #news .news .col{
-    display: inline;
+    display: flex;
     /* justify-content: space-between;  */
     margin-bottom: 30px;
-    column-gap: 15px;
+    column-gap: 50px;
     margin-top: 20px;
    line-height: 15px;
     
@@ -596,9 +596,10 @@ footer .logo{
     .news{
         margin-top: 15px;
     }
-    #news .news .col{
+    #news .news .col p{
         display: inline;
-        justify-content: space-around;
+        justify-content: space-between;
+        border-radius: 25px;
         margin-bottom: 30px;
         margin-top: 10px;
     }
