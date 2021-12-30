@@ -610,10 +610,20 @@ footer .logo{
     .news{
         margin-top: 15px;
     }
+    #news .news .col{
+        display: inline;
+        /* justify-content: space-between;  */
+        padding-bottom: 30px;
+        row-gap: 50px;
+        margin-top: 20px;
+       line-height: 15px;
+       width: 100%;
+    }
+    #news .news .col img{
+        padding-top: 25px;
+    }
     #news .news .col p{
         display: inline;
-        justify-content: space-between;
-        border-radius: 25px;
         margin-bottom: 30px;
         margin-top: 10px;
     }
