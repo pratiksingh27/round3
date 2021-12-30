@@ -341,6 +341,7 @@ header main section:hover{
 #men #men2 .men{
     box-shadow: 2px 2px 2px 2px;
     transition: 0.3s;
+    width: 33.3%;
     
 }
 #men #men2 .men:hover{
@@ -355,6 +356,7 @@ header main section:hover{
     margin-top: 20px;
     flex: 1 1;
     margin-right: 10px;
+    align-items: center;
     
 }
 #m1 h5{
@@ -369,6 +371,7 @@ header main section:hover{
     margin-top: 30px;
     column-count: 2;
     margin-right: 10px;
+    align-items: center;
 }
 #m2 h5{
     margin-right: 10px;
@@ -382,6 +385,7 @@ header main section:hover{
     column-count: 2;
     column-gap: 15px;
     margin-right: 10px;
+    align-items: center;
 }
 #m3 h5{
     margin-right: 10px;
