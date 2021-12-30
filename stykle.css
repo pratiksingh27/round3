@@ -616,8 +616,8 @@ footer .logo{
         padding-bottom: 30px;
         row-gap: 50px;
         margin-top: 20px;
-       line-height: 15px;
-       width: 100%;
+       /* line-height: 15px; */
+        width: 100%;
     }
     #news .news .col img{
         padding-top: 25px;
