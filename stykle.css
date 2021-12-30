@@ -366,7 +366,7 @@ header main section:hover{
     font-size: 22px;
     width: 15%;
     border-bottom: 2px solid #00aced;
-    margin-left: 15px;
+    margin-left: 30px;
 }
 #team p{
     font-size: 18px;
@@ -448,17 +448,18 @@ footer .logo{
 /* news section */
 #news .news .col{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-between;  */
     margin-bottom: 30px;
-    margin-top: 10px;
-    border: 1px solid red;
+    column-gap: 15px;
+    margin-top: 20px;
+   line-height: 15px;
     
 }
 #news .news h2{
     font-size: 25px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-transform: capitalize;
-    border: 1px solid red;
+    margin-top: 15px;   
 
 }
 
